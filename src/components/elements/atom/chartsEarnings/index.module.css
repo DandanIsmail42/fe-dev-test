@@ -1,0 +1,77 @@
+.wrapper__earnings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 219px;
+    background-color: #1C243F;
+    margin-right: 10px;
+}
+.wrapper__text__dropdown{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper__text__dropdown h5{
+    color: white;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+
+
+  .dropdown__button {
+    display: flex;
+    font-size: 13px;
+    gap: 5px;
+    color: #5C6CA5;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    background-color: #2E4B85;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    font-size: 11px;
+    border-radius: 8px ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown__content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+
+  .dropdown__content a:hover {
+   background-color: #ffffff31;
+    
+  }
+
+
+  .dropdown:hover .dropdown__content {
+    display: block;
+  }
+
+
+
+
+

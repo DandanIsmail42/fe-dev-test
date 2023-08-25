@@ -1,0 +1,22 @@
+.home{
+    width: 95%;
+    max-height: 100vh;
+    
+}
+.wrapper__charts{
+    display: flex;
+}
+.wrapper__charts__top{
+    display: flex;
+    margin-top: 20px;
+}
+.wrapper__charts__bottom{
+    display: flex;
+    margin-top: 20px;
+}
+.wrapper__charts__left{
+    height: auto;
+}
+.wrapper__charts__right{
+    height: auto;
+}

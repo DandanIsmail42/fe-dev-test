@@ -1,0 +1,31 @@
+.wrapper__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.wrapper__card__cost{
+    width: 205px;
+    height: 100px;
+    background-color: #0BB885;
+    margin: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.wrapper__card__sales, .wrapper__card__week, .wrapper__card__revenue, .wrapper__card__payment{
+    width: 205px;
+    height: 100px;
+    background-color: #1C243F;
+    margin: 8px;
+    border-radius: 8px;
+    color: #0BB885;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.wrapper__charts__total{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 410px;
+    height: 250px;
+    background-color: #1C243F;
+    border-right: 1px solid #2E4B85;
+}

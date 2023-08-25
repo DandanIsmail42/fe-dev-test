@@ -1,0 +1,45 @@
+.wrapper__view{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 250px;
+    padding: 5px;
+    background-color: #1C243F;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn__year{
+    margin-top: 10px;
+    background-color: #1C243F;
+    border: solid 2px #0BB885;
+    width: 72px;
+    height: 27px;
+    padding: 5px;
+    border-radius: 10px;
+    color:  #0BB885;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper__view h3{
+    color: white;
+    font-weight: 500;
+}
+
+.wrapper__view__charts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.btn__view{
+    width: 118px;
+    height: 32px;
+    color: white;
+    background-color: #0BB885;
+    padding: 9px, 20px, 9px, 20px;
+    border: none;
+    border-radius: 4px;
+}

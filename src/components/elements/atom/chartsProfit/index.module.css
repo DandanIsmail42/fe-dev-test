@@ -1,0 +1,26 @@
+.wrapper__profit{
+    display: flex;
+    flex-direction: column;
+    width: 183px;
+    height: 220px;
+    background-color: #1C243F;
+    margin-right: 10px;
+}
+.wrapper__profit h4{
+    color: white;
+    font-weight: 500;
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+.wrapper__profit h3{
+    color: #0BB885;
+    font-weight: 500;
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+
+.wrapper__ptofit__charts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
